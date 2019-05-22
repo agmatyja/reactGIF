@@ -1,13 +1,18 @@
 {
-  "name": "reactgif",
+  "name": "myFirstServer",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "reactJSX",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
   },
   "author": "Agnieszka Matyja",
   "license": "ISC",
+  "dependencies": {
+    "babel-standalone": "^6.26.0",
+    "stat-mode": "^0.3.0"
+  },
   "devDependencies": {
     "http-server": "^0.11.1"
   }
